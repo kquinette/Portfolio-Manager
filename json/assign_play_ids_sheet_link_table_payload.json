@@ -1,0 +1,96 @@
+{
+  "tableReference": {
+    "projectId": "<PROJECT_ID>",
+    "datasetId": "<DATASET_NAME>",
+    "tableId": "<TABLE_NAME>"
+  },
+  "externalDataConfiguration": {
+	  "sourceUris": [
+	  "<SOURCE_URI>"
+	  ],
+	  "sourceFormat": "GOOGLE_SHEETS",
+	  "googleSheetsOptions": {
+	  "skipLeadingRows": 4,
+	  "range": "Assign Play Ids" 
+	  },
+	  "schema": {
+	  "fields": [
+	  {
+	  "mode": "NULLABLE",
+	  "name": "Play_Id_to_Assign",
+	  "type": "STRING"
+	  },
+	  {
+	  "mode": "NULLABLE",
+	  "name": "Assigned_Play_Id",
+	  "type": "STRING"
+	  },
+	  {
+	  "mode": "NULLABLE",
+	  "name": "Play_Status",
+	  "type": "STRING"
+	  },
+	  {
+	  "mode": "NULLABLE",
+	  "name": "Notes",
+	  "type": "STRING"
+	  },
+	  {
+	  "mode": "NULLABLE",
+	  "name": "Date",
+	  "type": "TIMESTAMP"
+	  },
+	  {
+	  "mode": "NULLABLE",
+	  "name": "Description",
+	  "type": "STRING"
+	  },
+	  {
+	  "mode": "NULLABLE",
+	  "name": "Expiration",
+	  "type": "DATE"
+	  },
+	  {
+	  "mode": "NULLABLE",
+	  "name": "Strike",
+	  "type": "FLOAT"
+	  },
+	  {
+	  "mode": "NULLABLE",
+	  "name": "Quantity",
+	  "type": "FLOAT"
+	  },
+	  {
+	  "mode": "NULLABLE",
+	  "name": "Value",
+	  "type": "FLOAT"
+	  },
+	  {
+	  "mode": "NULLABLE",
+	  "name": "Trade_Type",
+	  "type": "STRING"
+	  },
+	  {
+	  "mode": "NULLABLE",
+	  "name": "Effective_Action",
+	  "type": "STRING"
+	  },
+	  {
+	  "mode": "NULLABLE",
+	  "name": "Type",
+	  "type": "STRING"
+	  },
+	  {
+	  "mode": "NULLABLE",
+	  "name": "Instrument_Type",
+	  "type": "STRING"
+	  },
+	  {
+	  "mode": "NULLABLE",
+	  "name": "Account",
+	  "type": "STRING"
+	  }
+	  ]
+	  }
+  }
+}

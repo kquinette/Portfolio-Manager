@@ -1,0 +1,112 @@
+{
+  "tableReference": {
+      "projectId": "<PROJECT_ID>",
+      "datasetId": "<DATASET_NAME>",
+      "tableId": "<TABLE_NAME>"
+  },
+  "schema": {
+	  "fields": [
+		  {
+		    "mode": "REQUIRED",
+		    "name": "Date",
+		    "type": "TIMESTAMP"
+		  },
+		  {
+		    "name": "Type",
+		    "type": "STRING"
+		  },
+		  {
+		    "name": "Action",
+		    "type": "STRING"
+		  },
+		  {
+		    "name": "Symbol",
+		    "type": "STRING"
+		  },
+		  {
+		    "name": "Instrument_Type",
+		    "type": "STRING"
+		  },
+		  {
+		    "name": "Description",
+		    "type": "STRING"
+		  },
+		  {
+		    "name": "Value",
+		    "type": "FLOAT"
+		  },
+		  {
+		    "name": "Quantity",
+		    "type": "FLOAT"
+		  },
+		  {
+		    "name": "Average_Price",
+		    "type": "FLOAT"
+		  },
+		  {
+		    "name": "Commissions",
+		    "type": "STRING"
+		  },
+		  {
+		    "name": "Fees",
+		    "type": "FLOAT"
+		  },
+		  {
+		    "name": "Multiplier",
+		    "type": "FLOAT"
+		  },
+		  {
+		    "name": "Underlying_Symbol",
+		    "type": "STRING"
+		  },
+		  {
+		    "name": "Expiration_Date",
+		    "type": "DATE"
+		  },
+		  {
+		    "name": "Strike_Price",
+		    "type": "FLOAT"
+		  },
+		  {
+		    "name": "Call_or_Put",
+		    "type": "STRING"
+		  },
+		  {
+		    "name": "Order_Number",
+		    "type": "STRING"
+		  },
+		  {
+		    "name": "Adjusted_Underlying_Symbol",
+		    "type": "STRING"
+		  },
+		  {
+		    "name": "Adjusted_Multiplier",
+		    "type": "FLOAT"
+		  },
+		  {
+		    "name": "Buy_Sell_Flag",
+		    "type": "FLOAT"
+		  },
+		  {
+		    "name": "Open_Close_Flag",
+		    "type": "FLOAT"
+		  },
+		  {
+		    "name": "Play_Id",
+		    "type": "STRING"
+		  },
+		  {
+		    "name": "Account",
+		    "type": "STRING"
+		  },
+		  {
+		    "name": "Notes",
+		    "type": "STRING"
+		  },
+		  {
+		    "name": "Last_Update",
+		    "type": "TIMESTAMP"
+		  }
+	    ]
+  }
+}

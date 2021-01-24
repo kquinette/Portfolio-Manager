@@ -1,0 +1,25 @@
+{
+  "tableReference": {
+      "projectId": "<PROJECT_ID>",
+      "datasetId": "<DATASET_NAME>",
+      "tableId": "<TABLE_NAME>"
+  },
+  "schema": {
+	  "fields": [
+		  {
+		    "mode": "REQUIRED",
+		    "name": "Play_Id",
+		    "type": "STRING"
+		  },
+		  {
+		    "mode": "NULLABLE",
+		    "name": "Notes",
+		    "type": "STRING"
+		  },
+		  {
+		    "name": "Last_Update",
+		    "type": "TIMESTAMP"
+		  }
+	    ]
+  }
+}

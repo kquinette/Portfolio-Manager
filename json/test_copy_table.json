@@ -1,0 +1,15 @@
+{"configuration": {
+"copy": {
+"sourceTable": {
+"projectId": "portfolio-manager-001",
+"datasetId": "testDS",
+"tableId": "test"
+},
+"destinationTable": {
+"projectId": "portfolio-manager-001",
+"datasetId": "testDS",
+"tableId": "test_bak"
+}
+}
+}
+}

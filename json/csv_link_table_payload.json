@@ -1,0 +1,25 @@
+{
+"tableReference": {
+    "projectId": "<PROJECT_ID>",
+    "datasetId": "<DATASET_NAME>",
+    "tableId": "<TABLE_NAME>"
+},
+"externalDataConfiguration": {
+	"sourceUris": [
+	"<SOURCE_URI>"
+	],
+	"autodetect" : true,
+	"sourceFormat": "CSV",
+	"maxBadRecords": "0",
+	"ignoreUnknownValues": false,
+	"compression": "NONE",
+	"csvOptions": {
+	"fieldDelimiter": ",",
+	"skipLeadingRows": 1,
+	"quote": "\"",
+	"allowQuotedNewlines": false,
+	"allowJaggedRows": false,
+	"encoding": "UTF-8"
+	}
+}
+}
